@@ -24,7 +24,7 @@ The full write-up, including the literature review, methodology, results, and di
 ```
 project/
 ├── notebooks/
-│   ├── Corn_Alignment_Pipeline_2_4.ipynb    (main pipeline, start here)
+│   ├── Corn_Alignment_Pipeline.ipynb    (main pipeline, start here)
 │   └── Corn_Alignment_Prototype_Video.ipynb (live camera demo)
 │
 ├── dataset/
@@ -102,7 +102,7 @@ PROJECT_ROOT = Path(r"your/path/here")
 
 ### 6. Run the notebook
 
-Open `notebooks/Corn_Alignment_Pipeline_2_4.ipynb` and run top to bottom. The sections are:
+Open `notebooks/Corn_Alignment_Pipeline.ipynb` and run top to bottom. The sections are:
 
 1. Setup and GPU check
 2. Dataset preparation
